@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Ticket • Roll Buy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+
+  <div id="burger" onclick="go('seller-dashboard.html')">
+    ☰
+    <div id="notifDot"></div>
+  </div>
+
+  <h1>Create Ticket</h1>
+
+  <input class="input" id="eventName" placeholder="Event Name (e.g. Friday Night Skate)">
+  <input class="input" id="eventDate" placeholder="Date (YYYY-MM-DD)">
+  <input class="input" id="price" placeholder="Price (e.g. 12)">
+  <input class="input" id="capacity" placeholder="Number of Tickets">
+
+  <div class="card">
+    <p>This will generate one‑use QR tickets and log them in JSON via workflow.</p>
+  </div>
+
+  <div class="button" onclick="go('seller-tickets.html')">Create Tickets</div>
+
+  <div id="popup" class="popup"></div>
+
+</body>
+</html>
