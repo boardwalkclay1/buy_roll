@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scan Tickets • Roll Buy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+
+  <div id="burger" onclick="go('seller-dashboard.html')">
+    ☰
+    <div id="notifDot"></div>
+  </div>
+
+  <h1>Scan Ticket</h1>
+
+  <div class="card">
+    <p>Open this page on your phone and scan the QR from the buyer’s ticket.</p>
+    <p>Workflow will mark the ticket as used in JSON so it can’t be reused.</p>
+  </div>
+
+  <div class="button">Open Camera / Scanner (to be wired)</div>
+
+  <div class="card">
+    <h3>Scan Result</h3>
+    <p id="scanStatus">Waiting for scan…</p>
+  </div>
+
+  <div id="popup" class="popup"></div>
+
+</body>
+</html>
