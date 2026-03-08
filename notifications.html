@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Notifications • Roll Buy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body onload="startPolling('user_123')">
+
+  <div id="burger" onclick="go('profile.html')">
+    ☰
+    <div id="notifDot"></div>
+  </div>
+
+  <h1>Notifications</h1>
+
+  <div class="card">
+    <h3>Event Reminder</h3>
+    <p>Your skate event at Skate Galaxy is tomorrow!</p>
+    <p>March 9, 2026</p>
+  </div>
+
+  <div class="card">
+    <h3>Ticket Purchased</h3>
+    <p>You bought a ticket for Friday Night Skate.</p>
+    <p>March 5, 2026</p>
+  </div>
+
+  <div class="card">
+    <h3>Ticket Used</h3>
+    <p>Your ticket was scanned at the door.</p>
+    <p>Feb 28, 2026</p>
+  </div>
+
+  <div id="popup" class="popup"></div>
+
+</body>
+</html>
