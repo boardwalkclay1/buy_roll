@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ticket History • Roll Buy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body onload="startPolling('user_123')">
+
+  <div id="burger" onclick="go('profile.html')">
+    ☰
+    <div id="notifDot"></div>
+  </div>
+
+  <h1>Your Tickets</h1>
+
+  <div class="card">
+    <h3>Skate Galaxy</h3>
+    <p>Friday Night Skate</p>
+    <p>Date: March 10, 2026</p>
+    <div class="button" onclick="go('ticket.html')">View Ticket</div>
+  </div>
+
+  <div class="card">
+    <h3>Roller World</h3>
+    <p>Saturday Jam</p>
+    <p>Date: Feb 28, 2026</p>
+    <div class="button" onclick="go('ticket.html')">View Ticket</div>
+  </div>
+
+  <div id="popup" class="popup"></div>
+
+</body>
+</html>
