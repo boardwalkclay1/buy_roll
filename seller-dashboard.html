@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seller Dashboard • Roll Buy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+
+  <div id="burger" onclick="go('index.html')">
+    ☰
+    <div id="notifDot"></div>
+  </div>
+
+  <h1>Seller Dashboard</h1>
+
+  <div class="card">
+    <h3>Skate Galaxy</h3>
+    <p>Tonight’s tickets, payouts, and scans in one place.</p>
+  </div>
+
+  <div class="button" onclick="go('create-ticket.html')">Create New Ticket</div>
+  <div class="button" onclick="go('seller-tickets.html')">View All Tickets</div>
+  <div class="button" onclick="go('scan.html')">Scan Tickets</div>
+  <div class="button" onclick="go('index.html')">Logout</div>
+
+  <div id="popup" class="popup"></div>
+
+</body>
+</html>
