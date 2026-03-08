@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Tickets • Roll Buy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+
+  <div id="burger" onclick="go('seller-dashboard.html')">
+    ☰
+    <div id="notifDot"></div>
+  </div>
+
+  <h1>Your Tickets</h1>
+
+  <div class="card">
+    <h3>Friday Night Skate</h3>
+    <p>Date: 2026-03-10</p>
+    <p>Price: $12 • Sold: 34 • Remaining: 16</p>
+    <div class="button" onclick="go('scan.html')">Scan For This Event</div>
+  </div>
+
+  <div class="card">
+    <h3>Saturday Jam</h3>
+    <p>Date: 2026-03-15</p>
+    <p>Price: $15 • Sold: 20 • Remaining: 30</p>
+    <div class="button" onclick="go('scan.html')">Scan For This Event</div>
+  </div>
+
+  <div id="popup" class="popup"></div>
+
+</body>
+</html>
