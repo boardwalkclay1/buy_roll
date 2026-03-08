@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Ticket • Roll Buy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body onload="startPolling('user_123')">
+
+  <div id="burger" onclick="go('profile.html')">
+    ☰
+    <div id="notifDot"></div>
+  </div>
+
+  <h1>Your Ticket</h1>
+
+  <div class="card">
+    <h3>Skate Galaxy</h3>
+    <p>Friday Night Skate</p>
+    <p>Date: March 10, 2026</p>
+    <p>Price: $12</p>
+
+    <img src="./qr/qr_ticket_001.png" style="width: 100%; margin-top: 20px; border-radius: 12px;">
+  </div>
+
+  <div class="button" onclick="go('history.html')">Back to History</div>
+
+  <div id="popup" class="popup"></div>
+
+</body>
+</html>
