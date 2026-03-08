@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Profile • Roll Buy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body onload="startPolling('user_123')">
+
+  <div id="burger" onclick="go('index.html')">
+    ☰
+    <div id="notifDot"></div>
+  </div>
+
+  <h1>Your Profile</h1>
+
+  <div class="card">
+    <h3>Welcome Back</h3>
+    <p id="userName">Clay</p>
+    <p id="userEmail">clay@example.com</p>
+  </div>
+
+  <div class="button" onclick="go('buy.html')">Buy Tickets</div>
+  <div class="button" onclick="go('history.html')">Ticket History</div>
+  <div class="button" onclick="go('index.html')">Logout</div>
+
+  <div id="popup" class="popup"></div>
+
+</body>
+</html>
