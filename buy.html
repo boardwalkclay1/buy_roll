@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buy Tickets • Roll Buy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body onload="startPolling('user_123')">
+
+  <div id="burger" onclick="go('profile.html')">
+    ☰
+    <div id="notifDot"></div>
+  </div>
+
+  <h1>Buy Tickets</h1>
+
+  <div class="card">
+    <h3>Skate Galaxy</h3>
+    <p>Friday Night Skate • $12</p>
+    <div class="button" onclick="go('ticket.html')">Buy Ticket</div>
+  </div>
+
+  <div class="card">
+    <h3>Roller World</h3>
+    <p>Saturday Jam • $15</p>
+    <div class="button" onclick="go('ticket.html')">Buy Ticket</div>
+  </div>
+
+  <div id="popup" class="popup"></div>
+
+</body>
+</html>
