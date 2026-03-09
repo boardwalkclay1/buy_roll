@@ -1,0 +1,14 @@
+{
+  "_id": "seller_001",
+  "name": "Skate Galaxy",
+  "email": "galaxy@example.com",
+  "created_at": "2026-03-08T15:00:00Z",
+  "payout_account": {
+    "provider": "stripe",
+    "account_id": "acct_12345",
+    "connected": true
+  },
+  "events": [
+    "event_001"
+  ]
+}
