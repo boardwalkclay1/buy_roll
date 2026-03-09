@@ -1,0 +1,11 @@
+{
+  "_id": "ticket_001",
+  "event_id": "event_001",
+  "seller_id": "seller_001",
+  "buyer_id": "user_123",
+  "status": "active",          // active | used | refunded
+  "qr_code_id": "qr_ticket_001",
+  "purchase_at": "2026-03-08T16:10:00Z",
+  "used_at": null,
+  "reminder_sent": false
+}
