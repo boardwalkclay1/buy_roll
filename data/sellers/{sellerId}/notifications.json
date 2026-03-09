@@ -1,0 +1,23 @@
+[
+  {
+    "id": "notif_001",
+    "type": "ticket_sold",
+    "message": "You sold a ticket.",
+    "timestamp": "2026-03-08T16:10:00Z",
+    "read": false
+  },
+  {
+    "id": "notif_002",
+    "type": "ticket_used",
+    "message": "A ticket was scanned.",
+    "timestamp": "2026-03-10T20:15:00Z",
+    "read": false
+  },
+  {
+    "id": "notif_003",
+    "type": "payout",
+    "message": "A payout was completed.",
+    "timestamp": "2026-03-11T09:00:00Z",
+    "read": true
+  }
+]
