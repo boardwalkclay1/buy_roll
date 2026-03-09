@@ -1,0 +1,9 @@
+name = "rollbuy-api"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+MONGO_URI = "YOUR_MONGODB_URI_HERE"
+
+[triggers]
+crons = ["0 0 * * *"]   # daily reminders
